@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Lembaran hijau dengan sudut kanan atas terlipat (sama dengan logo di sidebar) -->
+  <path fill="#2F6F55" d="M144 56H344L456 168V376A80 80 0 0 1 376 456H136A80 80 0 0 1 56 376V136A80 80 0 0 1 136 56Z"/>
+  <path fill="#9FD3B8" d="M344 56V136A32 32 0 0 0 376 168H456Z"/>
+  <g fill="#F6F7F5">
+    <rect x="128" y="232" width="256" height="30" rx="15"/>
+    <rect x="128" y="298" width="208" height="30" rx="15"/>
+    <rect x="128" y="364" width="144" height="30" rx="15"/>
+  </g>
+</svg>

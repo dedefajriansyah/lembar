@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lembar</title>
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#E9EDE8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#172022" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="fonts/figtree-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/literata-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script>
+  // Terapkan tema yang tersimpan sebelum halaman digambar, supaya tidak berkedip.
+  try { const t = localStorage.getItem('lembar:theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+</script>
+<!-- Path modul highlight.js sama dengan di server (lib/highlight.js), di browser diarahkan ke /vendor/hljs/ -->
+<script type="importmap">{ "imports": { "@highlightjs/cdn-assets/es/": "/vendor/hljs/es/" } }</script>
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<div class="app" id="app" data-pane="list">
+  <aside class="side" id="side" aria-label="Navigasi"></aside>
+  <section class="list" id="list" aria-label="Daftar catatan"></section>
+  <main class="editor" id="editor" aria-label="Editor"></main>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="task" id="task" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

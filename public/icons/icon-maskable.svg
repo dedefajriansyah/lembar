@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Varian maskable: latar penuh, isi di dalam zona aman (lingkaran 80% di tengah) -->
+  <rect width="512" height="512" fill="#2F6F55"/>
+  <g transform="translate(256 256) scale(.62) translate(-256 -256)">
+    <path fill="#F6F7F5" d="M144 56H344L456 168V376A80 80 0 0 1 376 456H136A80 80 0 0 1 56 376V136A80 80 0 0 1 136 56Z"/>
+    <path fill="#9FD3B8" d="M344 56V136A32 32 0 0 0 376 168H456Z"/>
+    <g fill="#2F6F55">
+      <rect x="128" y="232" width="256" height="30" rx="15"/>
+      <rect x="128" y="298" width="208" height="30" rx="15"/>
+      <rect x="128" y="364" width="144" height="30" rx="15"/>
+    </g>
+  </g>
+</svg>
